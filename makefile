@@ -1,5 +1,5 @@
 dsdesc.out: dsdesc.cpp
-	mpic++ -Ofast dsdesc.cpp -o dsdesc.out
+	mpic++ -O3 dsdesc.cpp -o dsdesc.out
 
 clean:
 	rm dsdesc.out
