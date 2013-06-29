@@ -1,0 +1,5 @@
+MPI implementation of distributed steepest descent numberic solution of the
+linear equation, where the matrix is n^2 x n^2 triblock matrix, consisting of
+blocks, which are tridiagonal matrices:
+$A = triblock(A_d, A_c, A_u), A_d = A_u = tridiag(-1,12,-1), A_c =
+tridiag(-2,-1,-2).$
